@@ -3,6 +3,8 @@
 # Replace "mail_to_recieve_alerts" with the mail you want to use for recieving alerts
 # Replace "mail_to_send_alerts" with the mail you want to use to send alerts
 # Insert the application code (Example:x3wa stgl szmf bu1t) for the mail you want to use alerts in "smtpPassword"
+# Incase you are not clear, check the "email copy.ps1" file for an example
+
 $smtpServer = "smtp.gmail.com"
 $smtpFrom = "<senders_mail>"
 $smtpTo = "<mail_to_recieve_alerts>"
