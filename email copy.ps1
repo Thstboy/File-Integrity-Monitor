@@ -1,13 +1,13 @@
 # Email configuration for Gmail
 $smtpServer = "smtp.gmail.com"
-$smtpFrom = "oritsegbemiprosper@gmail.com"
-$smtpTo = "prosperoritsegbemi@gmail.com"
+$smtpFrom = "sleeplikearam@gmail.com"
+$smtpTo = "runforyourlife@gmail.com"
 $smtpSubject = "File Integrity Monitoring Report"
 $smtpBody = "Changes have been detected in the baseline. Review the details in the attached report."
 
 # Gmail SMTP credentials
-$smtpUsername = "oritsegbemiprosper@gmail.com"
-$smtpPassword = "yewi hygl szmf buit"  # Replace with your generated App Password
+$smtpUsername = "reachouttome@gmail.com"
+$smtpPassword = "yahi qyg0 soof bull"  # Replace with your generated App Password
 
 # Function to send email using SmtpClient
 function Send-Email {
