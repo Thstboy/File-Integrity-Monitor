@@ -1,0 +1,19 @@
+﻿<Window x:Class="KingJesus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KingJesus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="bl" Content="" HorizontalAlignment="Left" Height="31" Margin="308,51,0,0" VerticalAlignment="Top" Width="455" BorderBrush="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+        <TextBox x:Name="SelectedBaseline" HorizontalAlignment="Left" Height="31" Margin="10,51,0,0" TextWrapping="Wrap" Text="Selected Baseline:" VerticalAlignment="Top" Width="293" FontSize="20" FontWeight="Bold" TextAlignment="Center" FontFamily="Copperplate Gothic Bold"/>
+        <Button x:Name="SelectBaseline" Content="Select Baseline" HorizontalAlignment="Left" Height="44" Margin="10,334,0,0" VerticalAlignment="Top" Width="170" FontFamily="Copperplate Gothic Bold" FontSize="15"/>
+        <Button x:Name="AddFiles" Content="Add Files To Baseline" HorizontalAlignment="Left" Height="44" Margin="185,334,0,0" VerticalAlignment="Top" Width="198" FontFamily="Copperplate Gothic Bold" FontSize="15"/>
+        <Button x:Name="Play" Content="Start Monitoring" HorizontalAlignment="Left" Height="44" Margin="388,334,0,0" VerticalAlignment="Top" Width="185" FontFamily="Copperplate Gothic Bold" FontSize="15"/>
+        <Button x:Name="newBaseline" Content="Create a new Baseline" Height="44" Margin="578,334,27,0" VerticalAlignment="Top" FontFamily="Copperplate Gothic Bold" FontSize="14"/>
+        <ListBox x:Name="ListFiles" HorizontalAlignment="Left" Height="242" Margin="0,87,0,0" VerticalAlignment="Top" Width="790"/>
+
+    </Grid>
+</Window>
