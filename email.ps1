@@ -1,13 +1,17 @@
 # Email configuration for Gmail
+# Replace "senders_mail" with your email
+# Replace "mail_to_recieve_alerts" with the mail you want to use for recieving alerts
+# Replace "mail_to_send_alerts" with the mail you want to use to send alerts
+# Insert the application code (Example:x3wa stgl szmf bu1t) for the mail you want to use alerts in "smtpPassword"
 $smtpServer = "smtp.gmail.com"
-$smtpFrom = "oritsegbemiprosper@gmail.com"
-$smtpTo = "oritsegbemi.m1802087@st.futminna.edu.ng"
+$smtpFrom = "<senders_mail>"
+$smtpTo = "<mail_to_recieve_alerts>"
 $smtpSubject = "File Integrity Monitoring Report"
 $smtpBody = "Changes have been detected in the baseline. Review the details in the attached report."
 
 # Gmail SMTP credentials
-$smtpUsername = "oritsegbemiprosper@gmail.com"
-$smtpPassword = "yewi hygl szmf buit"  # Replace with your generated App Password
+$smtpUsername = "<mail_to_send_alerts>"
+$smtpPassword = "<send_mail_application_code>"  # Replace with your generated App Password
 
 # Function to send email using SmtpClient
 function Send-Email {
